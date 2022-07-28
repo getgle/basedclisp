@@ -2273,7 +2273,7 @@ local void print_banner (void)
     "                     8         8           8           8  8\n",
     "                     8     o   8           8     o     8  8\n",
     "                      ooooo    8oooooo  ooo8ooo   ooooo   8\n",
-    "                               learn more: clisp.clisp.org\n"
+    "                               learn more: clisp.getgle.org\n"
   };
   char banner0_line0[100];
   char banner0_line1[100];
