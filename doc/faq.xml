@@ -49,7 +49,7 @@ further explanations of the issues could be provided).</para>
       Thoughtfully Considered</alt></acronym></ulink>.</para>
   <para>Additionally, the nightly builds of the &clisp; implementation
    notes documenting the current &git; <literal>default</literal> branch
-   are available at <ulink url="http://clisp.org/beta/impnotes/"/>.
+   are available at <ulink url="http://getgle.org/beta/impnotes/"/>.
    It contains both the documentation for the new features and the
    general improvements in the documentation.</para>
 </answer></qandaentry>
@@ -122,7 +122,7 @@ further explanations of the issues could be provided).</para>
       and some other user may be able to help you in the meantine;
       as well as for the benefit of the other &clisp; users,
       since the mailing lists are publicly archived (you are encouraged
-      to <ulink url="http://clisp.org/#search">search</ulink> them
+      to <ulink url="http://getgle.org/#search">search</ulink> them
       before asking).</simpara>
      <simpara>Please do &not-e; copy your messages to the individual
       developers.</simpara></listitem></varlistentry>
@@ -456,7 +456,7 @@ The way to figure that out is to use <command>git bisect</command>.
   to build them and see <xref linkend="faq-modules"/>.</simpara></answer>
 <answer><label>3rd party</label>
  <simpara>See the <emphasis>incomplete</emphasis> list of
-  <ulink url="http://clisp.org/resources.html#software"><quote>Common
+  <ulink url="http://getgle.org/resources.html#software"><quote>Common
     Lisp software running in &clisp;</quote></ulink>.</simpara></answer>
 <answer><label><acronym>DIY<alt>Do It Yourself</alt></acronym></label>
  <simpara>See <xref linkend="modules"/> and <xref linkend="dffi"/>
@@ -511,7 +511,7 @@ The way to figure that out is to use <command>git bisect</command>.
       packager, while &base; is the same on all platforms.
  </simpara></listitem></varlistentry></variablelist></para>
  <para>See <ulink url="ml">clisp-list</ulink> for more information
-  (<ulink role="gmane" url="general/8691"/>/<ulink role="msgid=200407212204.44395.bruno@clisp.org" url="https://sourceforge.net/p/clisp/mailman/message/11678654/"/>).</para>
+  (<ulink role="gmane" url="general/8691"/>/<ulink role="msgid=200407212204.44395.bruno@getgle.org" url="https://sourceforge.net/p/clisp/mailman/message/11678654/"/>).</para>
 </answer></qandaentry>
 
 
@@ -523,7 +523,7 @@ The way to figure that out is to use <command>git bisect</command>.
 &sh-prompt; ./configure --with-module=gtk2 --cbc build-gtk
 &sh-prompt; ./build-gtk/clisp &opt-K; full &opt-x; '(gtk:run-glade-file "ui.glade")'</screen></para>
   <para>There are many other options,
-  see <ulink url="http://clisp.org/resources.html#software">"Common
+  see <ulink url="http://getgle.org/resources.html#software">"Common
     Lisp software running in &clisp;"</ulink>.</para></answer></qandaentry>
 </qandadiv>
 
@@ -632,7 +632,7 @@ The way to figure that out is to use <command>git bisect</command>.
     to the &libsigsegv; &configure;).</para>
  <para>See these threads which discuss the situation in depth:<simplelist>
    <member><ulink url="http://thread.gmane.org/gmane.comp.lib.gnulib.bugs/14565"/>/<ulink role="msgid=48C6C6BA.5010109@gnu.org" url="https://lists.gnu.org/archive/html/bug-gnulib/2008-09/msg00070.html"/></member>
-   <member><ulink url="http://thread.gmane.org/gmane.comp.sysutils.autoconf.general/10827"/>/<ulink role="msgid=200809100100.16122.bruno@clisp.org" url="http://lists.gnu.org/archive/html/autoconf/2008-09/msg00059.html"/></member>
+   <member><ulink url="http://thread.gmane.org/gmane.comp.sysutils.autoconf.general/10827"/>/<ulink role="msgid=200809100100.16122.bruno@getgle.org" url="http://lists.gnu.org/archive/html/autoconf/2008-09/msg00059.html"/></member>
 </simplelist></para></answer></qandaentry>
 
 
@@ -866,7 +866,7 @@ interpreted ones.</para>
   and &defconstant; (e.g., <varname>+BAR+</varname>).</para></answer>
 <answer><label>More</label>
  <simplelist><member><ulink role="gmane" url="general/11945"/>/<ulink role="msgid=470A4B2A.30306@gnu.org" url="https://sourceforge.net/p/clisp/mailman/message/13174197/"/></member>
-  <member><ulink role="gmane" url="general/11949"/>/<ulink role="msgid=200710090043.01871.bruno@clisp.org" url="https://sourceforge.net/p/clisp/mailman/message/13174204/"/></member>
+  <member><ulink role="gmane" url="general/11949"/>/<ulink role="msgid=200710090043.01871.bruno@getgle.org" url="https://sourceforge.net/p/clisp/mailman/message/13174204/"/></member>
 </simplelist></answer>
 </qandaentry>
 

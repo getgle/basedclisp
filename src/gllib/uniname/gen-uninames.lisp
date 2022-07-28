@@ -3,7 +3,7 @@
 ;;; Creation of gnulib's uninames.h from the UnicodeData.txt table.
 
 ;;; Copyright (C) 2000-2021 Free Software Foundation, Inc.
-;;; Written by Bruno Haible <bruno@clisp.org>, 2000-12-28.
+;;; Written by Bruno Haible <bruno@getgle.org>, 2000-12-28.
 ;;;
 ;;; This program is free software.
 ;;; It is dual-licensed under "the GNU LGPLv3+ or the GNU GPLv2+".

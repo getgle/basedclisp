@@ -1,7 +1,7 @@
 // Assembly language support for i386 CPU.
 // Bruno Haible 1997-06-21
 
-// Copyright (C) 1997-2018 Bruno Haible <bruno@clisp.org>
+// Copyright (C) 1997-2018 Bruno Haible <bruno@getgle.org>
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by

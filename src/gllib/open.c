@@ -14,7 +14,7 @@
    You should have received a copy of the GNU Lesser General Public License
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-/* Written by Bruno Haible <bruno@clisp.org>, 2007.  */
+/* Written by Bruno Haible <bruno@getgle.org>, 2007.  */
 
 /* If the user's config.h happens to include <fcntl.h>, let it include only
    the system's <fcntl.h> here, so that orig_open doesn't recurse to

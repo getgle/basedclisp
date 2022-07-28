@@ -130,7 +130,7 @@
 <!-- *** implementations *** -->
 <!ENTITY abcl '<ulink url="https://common-lisp.net/project/armedbear/"><command>ABCL</command></ulink>'>
 <!ENTITY ccl '<ulink url="http://www.cormanlisp.com/"><command>CormanLisp</command></ulink>'>
-<!ENTITY clisp '<ulink url="http://clisp.org"><command>CLISP</command></ulink>'>
+<!ENTITY clisp '<ulink url="http://getgle.org"><command>CLISP</command></ulink>'>
 <!ENTITY cmucl '<ulink url="https://www.cons.org/cmucl/"><command>CMU CL</command></ulink>'>
 <!ENTITY gcl '<ulink url="https://www.gnu.org/software/gcl/"><command>GCL</command></ulink>'>
 <!ENTITY openmcl '<ulink url="https://www.cliki.net/CCL"><command>Clozure CL</command></ulink>'>

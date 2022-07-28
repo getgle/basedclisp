@@ -1,6 +1,6 @@
 # Template messages for CLISP
 # Copyright (C) 1992-2017 Bruno Haible, Michael Stoll, Marcus Daniels, Sam Steingold
-# This file is distributed under the same license as the GNU CLISP package.
+# This file is distributed under the same license as the Based CLISP package.
 #
 msgid ""
 msgstr ""

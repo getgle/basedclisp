@@ -1,19 +1,19 @@
-This is GNU CLISP, an ANSI Common Lisp implementation.
+This is Based CLISP, an ANSI Common Lisp implementation.
 
 
 Availability
 ============
 
-GNU CLISP is available via anonymous ftp (sources and selected binaries) from
+Based CLISP is available via anonymous ftp (sources and selected binaries) from
   <ftp://ftp.gnu.org/pub/gnu/clisp/>
 and its mirrors.
 More information at
-  <http://clisp.org/>,
+  <http://getgle.org/>,
   <http://www.gnu.org/software/clisp/> and
   <http://clisp.sourceforge.net/>.
 
 See file <resources.html> on these sites, e.g.
-  <http://clisp.org/resources.html>,
+  <http://getgle.org/resources.html>,
 where you will find links to general Common Lisp information
 and documentation, as well as CLISP-specific links.
 

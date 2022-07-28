@@ -1,6 +1,6 @@
 ;;; Sam Steingold 2000-2008, 2010-2011, 2017-2018
 ;;; Bruno Haible 2017
-;;; This file is a part of CLISP (http://clisp.org), and, as such,
+;;; This file is a part of CLISP (http://getgle.org), and, as such,
 ;;; is distributed under the GNU GPL v2+ (http://www.gnu.org/copyleft/gpl.html)
 
 (in-package "EXT")
@@ -232,7 +232,7 @@ set *HTTP-PROXY*, and return it; otherwise just return *HTTP-PROXY*."
 ;; * Reference it on the web. The most common (official) URLs are
 ;;   (1996) http://www.ai.mit.edu/projects/iiip/doc/CommonLISP/HyperSpec/FrontMatter/
 ;;          http://cliki.net/site/HyperSpec/FrontMatter/index.html
-;;   (2001) http://yon.maclisp.org/clhs/HyperSpec/Front/
+;;   (2001) http://yon.magetgle.org/clhs/HyperSpec/Front/
 ;;   (2005) http://www.lispworks.com/documentation/HyperSpec/Front/
 ;;          http://clhs.lisp.se/Front/index.htm
 ;; * Let the user download it as a complete package and install it in their
@@ -269,7 +269,7 @@ set *HTTP-PROXY*, and return it; otherwise just return *HTTP-PROXY*."
       ;; The symbol map exists under different names:
       ;;   (1996) http://www.ai.mit.edu/projects/iiip/doc/CommonLISP/HyperSpec/Data/Symbol-Table.text
       ;;          http://cliki.net/site/HyperSpec/Data/Symbol-Table.text
-      ;;   (2001) http://yon.maclisp.org/clhs/HyperSpec/Data/Map_Sym.txt
+      ;;   (2001) http://yon.magetgle.org/clhs/HyperSpec/Data/Map_Sym.txt
       ;;   (2005) http://www.lispworks.com/documentation/HyperSpec/Data/Map_Sym.txt
       ;;          http://clhs.lisp.se/Data/Map_Sym.txt
       ;; We support both names.
@@ -282,7 +282,7 @@ set *HTTP-PROXY*, and return it; otherwise just return *HTTP-PROXY*."
         (with-open-stream (s (cond ((or (search "ai.mit.edu/" clhs-root)
                                         (search "cliki.net/" clhs-root))
                                     (get-map-1996))
-                                   ((or (search "maclisp.org/" clhs-root)
+                                   ((or (search "magetgle.org/" clhs-root)
                                         (search "lispworks.com/" clhs-root)
                                         (search "lisp.se/" clhs-root))
                                     (get-map-2001))

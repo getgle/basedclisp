@@ -16,13 +16,13 @@ dnl  Makefile   ---<make>--->> lisp.run, lispinit.mem
 dnl
 dnl
 AC_PREREQ([2.64])
-AC_INIT(GNU CLISP, m4_normalize(m4_esyscmd([if test -f version.sh; then . ./version.sh; else . ../version.sh; fi; echo "${VERSION_NUMBER} (${RELEASE_DATE})"])), http://clisp.org/, clisp)
+AC_INIT(Based CLISP, m4_normalize(m4_esyscmd([if test -f version.sh; then . ./version.sh; else . ../version.sh; fi; echo "${VERSION_NUMBER} (${RELEASE_DATE})"])), http://getgle.org/, clisp)
 AC_CONFIG_SRCDIR([lispbibl.d])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([no-define])
-AC_COPYRIGHT([GNU CLISP Copyright 1989-2017 by Bruno Haible and others
-GNU CLISP is distributed under the GNU GPL v2+, see file COPYRIGHT])dnl
+AC_COPYRIGHT([Based CLISP Copyright 1989-2017 by Bruno Haible and others
+Based CLISP is distributed under the GNU GPL v2+, see file COPYRIGHT])dnl
 AC_CONFIG_HEADERS(config.h)
 dnl
 RSE_BOLD

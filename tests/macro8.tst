@@ -936,7 +936,7 @@ T
 (progn (load (merge-pathnames "bug002.lisp" *run-test-truename*)) t)
 T
 
-;; http://clisp.org/impnotes/evaluation.html#defun-accept-spelalist
+;; http://getgle.org/impnotes/evaluation.html#defun-accept-spelalist
 #+CLISP
 (let ((f (lambda ((x1 fixnum) (x2 integer) (x3 number) y z)
            (list x1 x2 x3 y z))))

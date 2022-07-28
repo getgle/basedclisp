@@ -1587,7 +1587,7 @@ dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
 dnl with or without modifications, as long as this notice is preserved.
 
-dnl From Bruno Haible. Based on as-underscore.m4 in GNU clisp.
+dnl From Bruno Haible. Based on as-underscore.m4 in Based CLISP.
 
 # gl_ASM_SYMBOL_PREFIX
 # Tests for the prefix of C symbols at the assembly language level and the
@@ -23016,7 +23016,7 @@ AC_DEFUN([CL_AS_UNDERSCORE],
 dnl -*- Autoconf -*-
 # bold.m4 serial 4 (clisp)
 dnl Copyright (C) 1999-2002 Ralf S. Engelschall <rse@engelschall.com>
-dnl Copyright (C) 2002-2008, 2017-2018 Bruno Haible <bruno@clisp.org>
+dnl Copyright (C) 2002-2008, 2017-2018 Bruno Haible <bruno@getgle.org>
 dnl Copyright (C) 2006 Sam Steingold <sds@gnu.org>
 dnl This file is free software, distributed under the terms of the GNU
 dnl General Public License.  As a special exception to the GNU General
@@ -23355,7 +23355,7 @@ AC_DEFUN([CL_CLISP],[
           [dnl head closes its input after the 1st line and clisp (at least on woe32)
            dnl prints [stream.d:5473] *** - Win32 error 232 (ERROR_NO_DATA): The pipe is being closed.
            dnl we avoid this message by redirecting clisp stderr to /dev/null
-           if $cl_cv_clisp --version 2>/dev/null | head -n 1 | grep "GNU CLISP" >/dev/null 2>&1; then
+           if $cl_cv_clisp --version 2>/dev/null | head -n 1 | grep "Based CLISP" >/dev/null 2>&1; then
              CLISP_SET([cl_cv_clisp_version], [(lisp-implementation-version)])
            else
              AC_MSG_ERROR(['$cl_cv_clisp' is not a CLISP])

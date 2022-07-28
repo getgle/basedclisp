@@ -1,6 +1,6 @@
 ;; -*- Lisp -*- vim:filetype=lisp
 ;; demo for the SCREEN package
-;; <http://clisp.org/impnotes/screen.html>
+;; <http://getgle.org/impnotes/screen.html>
 ;; usage:
 ;;  (welcome-simple)
 ;;  (welcome-banner)

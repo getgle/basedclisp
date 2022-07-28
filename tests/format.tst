@@ -325,7 +325,7 @@ FOO
 "             4.66d+19"
 
 ;; this code generates the following 12 tests
-;; not long, see http://clisp.org/impnotes/num-concepts.html#long-float-wider-than-bignum
+;; not long, see http://getgle.org/impnotes/num-concepts.html#long-float-wider-than-bignum
 (dolist (lm '("LEAST" "MOST"))
   (dolist (pn '("POSITIVE" "NEGATIVE"))
     (dolist (ty '("DOUBLE" "SINGLE" "SHORT")) ; "LONG"

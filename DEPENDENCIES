@@ -1,4 +1,4 @@
-The following packages should be installed before GNU clisp is installed
+The following packages should be installed before Based CLISP is installed
 (runtime dependencies that are also build dependencies):
 
 * GNU libsigsegv
@@ -106,13 +106,13 @@ The following packages should be installed before GNU clisp is installed
     --with-ncurses-prefix=DIR or --with-libtermcap-prefix to 'configure'.
 
 
-The following packages should be installed when GNU clisp is installed
+The following packages should be installed when Based CLISP is installed
 (runtime dependencies, but not build dependencies):
 
 None.
 
 
-The following should be installed when GNU clisp is built, but are not
+The following should be installed when Based CLISP is built, but are not
 needed later, once it is installed (build dependencies, but not runtime
 dependencies):
 

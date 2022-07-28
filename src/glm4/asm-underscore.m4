@@ -4,7 +4,7 @@ dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
 dnl with or without modifications, as long as this notice is preserved.
 
-dnl From Bruno Haible. Based on as-underscore.m4 in GNU clisp.
+dnl From Bruno Haible. Based on as-underscore.m4 in Based CLISP.
 
 # gl_ASM_SYMBOL_PREFIX
 # Tests for the prefix of C symbols at the assembly language level and the

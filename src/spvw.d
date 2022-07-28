@@ -1204,7 +1204,7 @@ modexp _Noreturn void error_notreached (const char* file, uintL line) {
   pushSTACK(ascii_to_string(file));
   error(serious_condition,
         GETTEXT("Internal error: statement in file ~S, line ~S has been reached!!\n"
-                "Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."));
+                "Please see <getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."));
 }
 
 #include "spvw_ctype.c"
@@ -2254,35 +2254,29 @@ local void print_banner (void)
 { const char * const banner0[] = { /* some lines above 66 characters */
   /*|Column 0           |Column 20                                    |Col 66
    "012345678901234567890123456789012345678901234567890123456789012345678901"*/
-    "  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo\n",
-    "  I I I I I I I      8     8   8           8     8     o  8    8\n",
-   "  I  \\ `+' /  I      8         8           8     8        8    8\n",
-   "   \\  `-+-'  /       8         8           8      ooooo   8oooo\n",
-    "    `-__|__-'        8         8           8           8  8\n",
-    "        |            8     o   8           8     o     8  8\n",
-    "  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8\n",
+    "                      ooooo    o        ooooooo   ooooo   ooooo\n",
+    "                     8     8   8           8     8     o  8    8\n",
+    "                     8         8           8     8        8    8\n",
+    "        BASED        8         8           8      ooooo   8oooo\n",
+    "                     8         8           8           8  8\n",
+    "                     8     o   8           8     o     8  8\n",
+    "                      ooooo    8oooooo  ooo8ooo   ooooo   8\n",
    };
   const char * banner0_hanukka[] = { /* some lines above 66 characters */
  /*|Column 0           |Column 20                                    |Col 66
   "012345678901234567890123456789012345678901234567890123456789012345678901" */
-   "        .\n",
-   ". . . . I . . . .     ooooo    o        ooooooo   ooooo   ooooo\n",
-   "I I I I I I I I I    8     8   8           8     8     o  8    8\n",
-  "I I  \\ `+' /  I I    8         8           8     8        8    8\n",
-  "I  \\  `-+-'  /  I    8         8           8      ooooo   8oooo\n",
-  " \\  `-__|__-'  /     8         8           8           8  8\n",
-   "  `--___|___--'      8     o   8           8     o     8  8\n",
-   "        |             ooooo    8oooooo  ooo8ooo   ooooo   8\n",
-   "--------+--------\n",
+    "                      ooooo    o        ooooooo   ooooo   ooooo\n",
+    "                     8     8   8           8     8     o  8    8\n",
+    "                     8         8           8     8        8    8\n",
+    "        BASED        8         8           8      ooooo   8oooo\n",
+    "                     8         8           8           8  8\n",
+    "                     8     o   8           8     o     8  8\n",
+    "                      ooooo    8oooooo  ooo8ooo   ooooo   8\n",
   };
   char banner0_line0[100];
   char banner0_line1[100];
   const char * const banner1[] = {
-   "Copyright (c) Bruno Haible, Michael Stoll 1992-1993\n",
-   "Copyright (c) Bruno Haible, Marcus Daniels 1994-1997\n",
-   "Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998\n",
-   "Copyright (c) Bruno Haible, Sam Steingold 1999-2000\n",
-   "Copyright (c) Sam Steingold, Bruno Haible 2001-2018\n",
+   ""
   };
   var int candles = 0;
   var uintL offset = (posfixnum_to_V(Symbol_value(S(prin_linelength))) >= 65 ? 0 : 20);
@@ -2311,23 +2305,23 @@ local void print_banner (void)
     var uintL days_since_1900 = (hours_since_1900 + 6) / 24;
     candles = hebrew_calendar_hanukka_candles(days_since_1900);
     if (candles > 0) {
-      banner0_line0[8] = 'i';
+      banner0_line0[8] = ' ';
       if (candles >= 1) {
-        banner0_line1[16] = 'i';
+        banner0_line1[16] = ' ';
         if (candles >= 2) {
-          banner0_line1[14] = 'i';
+          banner0_line1[14] = ' ';
           if (candles >= 3) {
-            banner0_line1[12] = 'i';
+            banner0_line1[12] = ' ';
             if (candles >= 4) {
-              banner0_line1[10] = 'i';
+              banner0_line1[10] = ' ';
               if (candles >= 5) {
-                banner0_line1[6] = 'i';
+                banner0_line1[6] = ' ';
                 if (candles >= 6) {
-                  banner0_line1[4] = 'i';
+                  banner0_line1[4] = ' ';
                   if (candles >= 7) {
-                    banner0_line1[2] = 'i';
+                    banner0_line1[2] = ' ';
                     if (candles >= 8) {
-                      banner0_line1[0] = 'i';
+                      banner0_line1[0] = ' ';
                     }
                   }
                 }
@@ -4276,7 +4270,7 @@ global int main (argc_t argc, char* argv[]) {
   }
   /* do this before O(argv) is ready so that applications cannot
      detect and thus disable "--clisp-" superarg
-     http://clisp.org/impnotes/image.html#image-exec */
+     getgle.org/impnotes/image.html#image-exec */
   run_hooks(Symbol_value(S(init_hooks)));
   { /* Init O(argv). */
     O(argv) = allocate_vector(argc);

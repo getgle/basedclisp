@@ -2,7 +2,7 @@
  * Copyright (C) 2007-2008 Yann Nicolas Dauphin
  * Copyright (C) 2007-2008, 2017 Sam Steingold
  * Copyright (C) 2016-2017 Bruno Handle
- * This file is a part of GNU CLISP and is distributed under GNU GPL v2+
+ * This file is a part of Based CLISP and is distributed under GNU GPL v2+
  *
  * These are the set of macros built on top of GNU Lightning
  * to build the JIT compiler.

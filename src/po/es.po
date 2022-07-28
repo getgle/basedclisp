@@ -1,4 +1,4 @@
-# Mensajes en español para GNU CLISP 2.49.60.
+# Mensajes en español para Based CLISP 2.49.60.
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # This file is distributed under the same license as the clisp package.
 # Carlos Linares López <clinares@delicias.dia.fi.upm.es>, 1997.
@@ -63,7 +63,7 @@
 # Revision 1.11  2005/02/16 22:30:56  haible
 # Regenerated.
 # Revision 1.10  2004/12/10 16:11:18  sds
-# GNU CLISP 2.33.80 (2004-11-27)
+# Based CLISP 2.33.80 (2004-11-27)
 # Revision 1.9  2004/03/31 12:48:41  haible
 # Update after change of format string convention: '~' -> '~S', '$' -> '~C'.
 # Revision 1.8  2004/03/31 12:07:14  haible
@@ -120,7 +120,7 @@
 # Javier <fserrador@gmail.com>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU clisp 2.49.60\n"
+"Project-Id-Version: Based CLISP 2.49.60\n"
 "Report-Msgid-Bugs-To: clisp-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-06-25 11:29:01+0200\n"
 "PO-Revision-Date: 2018-01-17 17:07+0100\n"
@@ -184,7 +184,7 @@ msgstr "~S: realloc() ha fallado"
 #, lisp-format
 msgid ""
 "Internal error: statement in file ~S, line ~S has been reached!!\n"
-"Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
+"Please see <http://getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
 msgstr ""
 "Error interno: ¡¡sentencia del fichero ~S, línea ~S ha sido alcanzada!!\n"
 "¡Por favor, vea para más estados defectuosos."
@@ -10547,9 +10547,9 @@ msgstr "~S sólo está permitido tras ~S: ~S"
 #, fuzzy
 #~ msgid " from file "
 #~ msgstr ""
-#~ "#-#-#-#-#  es1.po (GNU clisp 1996-03-31)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  es1.po (Based CLISP 1996-03-31)  #-#-#-#-#\n"
 #~ " de la fuente ~S\n"
-#~ "#-#-#-#-#  es2.po (GNU clisp 1996-03-31)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  es2.po (Based CLISP 1996-03-31)  #-#-#-#-#\n"
 #~ " de la fuente ~SS"
 
 #, fuzzy

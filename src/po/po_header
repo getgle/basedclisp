@@ -34,7 +34,7 @@ fi
 cat << EOF
 # ${language} messages for CLISP
 # Copyright (C) 1992-${year} ${authors}
-# This file is distributed under the same license as the GNU CLISP package.
+# This file is distributed under the same license as the Based CLISP package.
 #
 msgid ""
 msgstr ""

@@ -1,6 +1,6 @@
 /*
  * CLISP thread functions - multiprocessing
- * Distributed under the GNU GPL v2+ as a part of GNU CLISP
+ * Distributed under the GNU GPL v2+ as a part of Based CLISP
  * Sam Steingold 2003-2011
  * Vladimir Tzankov 2008-2012
  */

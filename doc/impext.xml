@@ -3873,7 +3873,7 @@ and possibly the calling convention.</para>
   have problems with this.
   The recommended workaround is to pass pointers; this is fully supported.
   See also <ulink url="ml">clisp-devel</ulink>
-  (<ulink role="gmane" url="devel/10089"/>/<ulink role="msgid=200307141526.26925.bruno@clisp.org" url="https://sourceforge.net/p/clisp/mailman/message/12562038/"/>).</simpara></warning>
+  (<ulink role="gmane" url="devel/10089"/>/<ulink role="msgid=200307141526.26925.bruno@getgle.org" url="https://sourceforge.net/p/clisp/mailman/message/12562038/"/>).</simpara></warning>
 
 </section>
 

@@ -205,9 +205,9 @@ Despite this file's location, it is applicable to cygwin and mingw as well.
    public directories.
    If you built with static modules (./configure --without-dynamic-modules)
    there will be two "linking sets" in /usr/local/lib/clisp/ - "base"
-   and "full" (see <http://clisp.org/impnotes/modules.html>).
+   and "full" (see <http://getgle.org/impnotes/modules.html>).
    You can chose which linking set to run by using "-K" option of clisp
-   (see <http://clisp.org/clisp.html#opt-link-set>)
+   (see <http://getgle.org/clisp.html#opt-link-set>)
    Note that some modules (i18n, regexp, syscalls and readline at this time)
    are included in the "base" linking set by default,
    see BASE_MODULES in build-dir/Makefile.
@@ -287,7 +287,7 @@ Additional Information for Maintainers of Binary Packages:
       which have no external dependencies, i.e., modules "clisp-asdf" and
       "clisp-rawsock" depend only on "clisp".
       Moreover, they can be bundled with "clisp" into a single package.
-   See also <http://clisp.org/impnotes/modules.html#base-modules>
+   See also <http://getgle.org/impnotes/modules.html#base-modules>
    and "./configure --help-modules".
 
 Authors:

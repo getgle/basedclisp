@@ -1,6 +1,6 @@
 # English messages for CLISP
 # Copyright (C) 1992-2017 Bruno Haible, Marcus Daniels, Sam Steingold
-# This file is distributed under the same license as the GNU CLISP package.
+# This file is distributed under the same license as the Based CLISP package.
 #
 msgid ""
 msgstr ""
@@ -36,10 +36,10 @@ msgstr "~S: realloc() failed"
 #, lisp-format
 msgid ""
 "Internal error: statement in file ~S, line ~S has been reached!!\n"
-"Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
+"Please see <http://getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
 msgstr ""
 "Internal error: statement in file ~S, line ~S has been reached!!\n"
-"Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
+"Please see <http://getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
 
 #: spvw.d:1190
 msgid "Unknown FSUBR signature: %d %d %d\n"

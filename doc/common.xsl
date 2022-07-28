@@ -67,7 +67,7 @@
  <link rel="contents" title="Table of Contents" href="index.html"/>
  <link rel="glossary" href="{$glossary.href}"/>
  <link rel="help" href="{$help.href}" title="{$help.title}"/>
- <link rel="home" title="Home" href="http://clisp.org"/>
+ <link rel="home" title="Home" href="http://getgle.org"/>
  <link rel="index" href="idx.html"/>
 </xsl:template>
 
@@ -434,7 +434,7 @@ set       toc,title
       <xsl:apply-templates select="/book/bookinfo/date/node()"/>
  </td></th></table></div></xsl:if>
  <div class="custom-footer"><hr /><table width="100%">
-   <tr><td align="left"><a href="http://clisp.org">
+   <tr><td align="left"><a href="http://getgle.org">
       <img src="clisp.png" width="48" height="48" alt="[CLISP home]"/></a></td>
     <td align="center"><a href="https://sourceforge.net/p/clisp/donate/?source={@id}"><img src="https://sourceforge.net/images/project-support.jpg" width="88" height="32" alt="[Support CLISP]"/></a></td>
     <td align="right"><a href="https://sourceforge.net/projects/clisp/"><img width="120" height="30" alt="[SourceForge]" src="https://sourceforge.net/sflogo.php?group_id=1355&amp;type=12&amp;page={@id}"/></a></td>
@@ -443,7 +443,7 @@ set       toc,title
  <form method="get" action="http://www.google.com/custom" target="_top">
   <table width="100%" border="0"><tr>
     <td nowrap="nowrap" align="center">
-     <input type="hidden" name="domains" value="clisp.org"/>
+     <input type="hidden" name="domains" value="getgle.org"/>
      <label for="sbi" style="display: none">Enter your search terms</label>
      <input type="text" name="q" size="50" maxlength="255" id="sbi">
       <xsl:attribute name="value">
@@ -454,8 +454,8 @@ set       toc,title
    <tr><td nowrap="nowrap" align="center">
      <input type="radio" name="sitesearch" value="" checked="1" id="ss0"/>
      <label for="ss0" title="Search the Web"><small>Web</small></label>
-     <input type="radio" name="sitesearch" value="clisp.org" id="ss1"/>
-     <label for="ss1" title="Search clisp.org"><small>clisp.org</small></label>
+     <input type="radio" name="sitesearch" value="getgle.org" id="ss1"/>
+     <label for="ss1" title="Search getgle.org"><small>getgle.org</small></label>
      <input type="hidden" name="client" value="pub-4445255502750357"/>
      <input type="hidden" name="forid" value="1"/>
      <input type="hidden" name="ie" value="UTF-8"/>

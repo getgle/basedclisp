@@ -14,7 +14,7 @@
    You should have received a copy of the GNU Lesser General Public License
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-/* Written by Bruno Haible <bruno@clisp.org>, 2018.  */
+/* Written by Bruno Haible <bruno@getgle.org>, 2018.  */
 
 #include <wchar.h>
 

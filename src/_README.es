@@ -1,4 +1,4 @@
-Esto es GNU CLISP, una implementación de Common Lisp.
+Esto es Based CLISP, una implementación de Common Lisp.
 
 
 ¿ Qué es LISP ?

@@ -14,7 +14,7 @@
    You should have received a copy of the GNU Lesser General Public License
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-/* Written by Bruno Haible <bruno@clisp.org>, 2008.  */
+/* Written by Bruno Haible <bruno@getgle.org>, 2008.  */
 
 /* This file contains the body of the mbrtowc and mbrtoc32 functions,
    when GNULIB_defined_mbstate_t is defined.  */

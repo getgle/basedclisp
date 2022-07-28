@@ -15,7 +15,7 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 /* Written by Matteo Croce <mcroce@redhat.com>, 2018.
-   Documentation by Bruno Haible <bruno@clisp.org>, 2018.  */
+   Documentation by Bruno Haible <bruno@getgle.org>, 2018.  */
 
 /* Declare specific functions for computing message digests
    using the Linux kernel crypto API, if available.  This kernel API gives

@@ -3380,7 +3380,7 @@ ERROR
   (symbols-cleanup '(testgf38class testgf38)))
 ()
 
-;; http://clisp.org/impnotes/mop-clisp.html#mop-clisp-warn
+;; http://getgle.org/impnotes/mop-clisp.html#mop-clisp-warn
 #+CLISP
 (defmacro with-collecting-mop-warnings (&body body)
   `(let ((already-called ()) (replacing-method ()))

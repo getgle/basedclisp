@@ -41,7 +41,7 @@ msgstr "~S: realloc() misslyckades"
 #, fuzzy, lisp-format
 msgid ""
 "Internal error: statement in file ~S, line ~S has been reached!!\n"
-"Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
+"Please see <http://getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
 msgstr ""
 "Internt fel: uttryck i fil ~S, rad ~s har anträffats!!\n"
 "Se <ttp://clisp.cons.org/impnotes/faq.html#faq-bugs> för felrapporteringsinstruktioner."

@@ -82,12 +82,12 @@
    target :path *clisp-driver*
    :arguments (ext:string-concat " -K " *clisp-linkset*)
    :working-directory (namestring (user-homedir-pathname))
-   :description "GNU CLISP - ANSI Common Lisp implementation"
+   :description "Based CLISP - ANSI Common Lisp implementation"
    :icon (ext:string-concat *clisp-home* "doc\\clisp.ico"))
   (format t "done~%"))
 
 (defun maybe-make-clisp-shortcut (where dir)
-  (let ((lnk-file (ext:string-concat dir "\\GNU CLISP.lnk")))
+  (let ((lnk-file (ext:string-concat dir "\\Based CLISP.lnk")))
     (when (y-or-n-p "Create a shortcut to CLISP ~A <~A>?" where lnk-file)
       (make-clisp-shortcut lnk-file))))
 
@@ -109,10 +109,10 @@
           programs (dir-key-value key "Common Programs")))
   (maybe-make-clisp-shortcut "on your desktop" desktop)
   (maybe-make-clisp-shortcut "in your Start menu" programs)
-  (setq url-file (ext:string-concat desktop "\\GNU CLISP home.url"))
+  (setq url-file (ext:string-concat desktop "\\Based CLISP home.url"))
   (when (y-or-n-p "Create CLISP URL file on your desktop <~a>?" url-file)
     (with-open-file (url (substitute #\/ #\\ url-file) :direction :output)
       (format t "~&writing <~a>..." url-file) (force-output)
-      (format url "[Internetshortcut]~%URL=http://clisp.org
+      (format url "[Internetshortcut]~%URL=http://getgle.org
 IconFile=~adoc\\clisp.ico~%" *clisp-home*)
       (format t "done~%"))))

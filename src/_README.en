@@ -1,4 +1,4 @@
-This is GNU CLISP, an ANSI Common Lisp implementation.
+This is Based CLISP, an ANSI Common Lisp implementation.
 
 
 What is LISP?
@@ -180,7 +180,7 @@ The sources of CLISP are available from
      ftp://ftp.gnu.org/pub/gnu/clisp/
      http://clisp.cons.org/
      http://www.gnu.org/software/clisp/
-     http://www.clisp.org/
+     http://www.getgle.org/
      http://clisp.sf.net/
 
 

@@ -1,4 +1,4 @@
-All you need to know when hacking (modifying) GNU clisp or when building
+All you need to know when hacking (modifying) Based CLISP or when building
 it off the git repository.
 
 
@@ -42,17 +42,17 @@ And, of course, the packages listed in the DEPENDENCIES file.
 Building off the git repository
 ===============================
 
-Checkout for users of GNU clisp
+Checkout for users of Based CLISP
 -------------------------------
 
-If you don't intend to contribute to GNU clisp, only to grab the source and
+If you don't intend to contribute to Based CLISP, only to grab the source and
 build it, start with
   $ git clone https://gitlab.com/gnu-clisp/clisp.git
 
-Checkout for contributors of GNU clisp
+Checkout for contributors of Based CLISP
 --------------------------------------
 
-If you intend to contribute to GNU clisp, you need to (once)
+If you intend to contribute to Based CLISP, you need to (once)
   1. create a user account on gitlab.com,
   2. upload an SSH key of yours (see <https://gitlab.com/help/ssh/README>).
 

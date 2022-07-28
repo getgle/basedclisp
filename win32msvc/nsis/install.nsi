@@ -1,4 +1,4 @@
-# installer for GNU CLISP
+# installer for Based CLISP
 # using Nullsoft Install System
 # (C) 2007 Elliott Slaughter
 #

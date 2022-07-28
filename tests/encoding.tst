@@ -181,7 +181,7 @@ NIL
                       (vector i))))
 T
 
-;; http://clisp.org/impnotes/clhs-newline.html
+;; http://getgle.org/impnotes/clhs-newline.html
 (let ((file "encoding-tst"))
   (unwind-protect
        (progn

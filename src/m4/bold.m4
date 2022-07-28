@@ -1,7 +1,7 @@
 dnl -*- Autoconf -*-
 # bold.m4 serial 4 (clisp)
 dnl Copyright (C) 1999-2002 Ralf S. Engelschall <rse@engelschall.com>
-dnl Copyright (C) 2002-2008, 2017-2018 Bruno Haible <bruno@clisp.org>
+dnl Copyright (C) 2002-2008, 2017-2018 Bruno Haible <bruno@getgle.org>
 dnl Copyright (C) 2006 Sam Steingold <sds@gnu.org>
 dnl This file is free software, distributed under the terms of the GNU
 dnl General Public License.  As a special exception to the GNU General
