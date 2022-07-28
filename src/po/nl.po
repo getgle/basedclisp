@@ -56,7 +56,7 @@ msgstr "~S: realloc() is mislukt"
 #, fuzzy, lisp-format
 msgid ""
 "Internal error: statement in file ~S, line ~S has been reached!!\n"
-"Please see <http://getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
+"Please see <http://clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."
 msgstr ""
 "**Interne fout**: opdracht in bestand ~S, regel ~S werd bereikt!!\n"
 "Zie http://clisp.cons.org/impnotes/faq.html#faq-bugs voor informatie\n"

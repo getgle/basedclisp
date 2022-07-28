@@ -1204,7 +1204,7 @@ modexp _Noreturn void error_notreached (const char* file, uintL line) {
   pushSTACK(ascii_to_string(file));
   error(serious_condition,
         GETTEXT("Internal error: statement in file ~S, line ~S has been reached!!\n"
-                "Please see <getgle.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."));
+                "Please see <clisp.org/impnotes/faq.html#faq-bugs> for bug reporting instructions."));
 }
 
 #include "spvw_ctype.c"
@@ -2261,7 +2261,7 @@ local void print_banner (void)
     "                     8         8           8           8  8\n",
     "                     8     o   8           8     o     8  8\n",
     "                      ooooo    8oooooo  ooo8ooo   ooooo   8\n",
-    "                               learn more: clisp.getgle.org\n"
+    "                               learn more: clisp.clisp.org\n"
    };
   const char * banner0_hanukka[] = { /* some lines above 66 characters */
  /*|Column 0           |Column 20                                    |Col 66
@@ -2273,7 +2273,7 @@ local void print_banner (void)
     "                     8         8           8           8  8\n",
     "                     8     o   8           8     o     8  8\n",
     "                      ooooo    8oooooo  ooo8ooo   ooooo   8\n",
-    "                               learn more: clisp.getgle.org\n"
+    "                               learn more: clisp.clisp.org\n"
   };
   char banner0_line0[100];
   char banner0_line1[100];
@@ -4272,7 +4272,7 @@ global int main (argc_t argc, char* argv[]) {
   }
   /* do this before O(argv) is ready so that applications cannot
      detect and thus disable "--clisp-" superarg
-     getgle.org/impnotes/image.html#image-exec */
+     clisp.org/impnotes/image.html#image-exec */
   run_hooks(Symbol_value(S(init_hooks)));
   { /* Init O(argv). */
     O(argv) = allocate_vector(argc);

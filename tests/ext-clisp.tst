@@ -19,7 +19,7 @@
 
 (ext:starts-with-p "a" "A") T
 (ext:starts-with-p "ab" "b") NIL
-(ext:starts-with-p "http://getgle.org" "http://") T
+(ext:starts-with-p "http://clisp.org" "http://") T
 (ext:starts-with-p "FoOb" "Fo0b") NIL
 
 ;; search-file

@@ -1,6 +1,6 @@
 /* Determine display width of Unicode character.
    Copyright (C) 2001-2002, 2006-2021 Free Software Foundation, Inc.
-   Written by Bruno Haible <bruno@getgle.org>, 2002.
+   Written by Bruno Haible <bruno@clisp.org>, 2002.
 
    This file is free software: you can redistribute it and/or modify
    it under the terms of the GNU Lesser General Public License as

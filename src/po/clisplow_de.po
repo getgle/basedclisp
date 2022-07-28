@@ -1,9 +1,9 @@
 # German messages for CLISP
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # Copyright (C) 1992-2004 Bruno Haible, Michael Stoll
-# Bruno Haible <bruno@getgle.org>, 2000, 2004.
+# Bruno Haible <bruno@clisp.org>, 2000, 2004.
 # Bruno Haible <haible@clisp.cons.org>, 2000.
-# Bruno Haible <bruno@getgle.org>, 2004.
+# Bruno Haible <bruno@clisp.org>, 2004.
 #
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: clisp-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-06-25 11:29:03+0200\n"
 "PO-Revision-Date: 2004-04-12 00:45+0200\n"
-"Last-Translator: Bruno Haible <bruno@getgle.org>\n"
+"Last-Translator: Bruno Haible <bruno@clisp.org>\n"
 "Language-Team: Deutsch <de@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"

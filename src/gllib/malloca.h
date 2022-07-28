@@ -1,6 +1,6 @@
 /* Safe automatic memory allocation.
    Copyright (C) 2003-2007, 2009-2021 Free Software Foundation, Inc.
-   Written by Bruno Haible <bruno@getgle.org>, 2003.
+   Written by Bruno Haible <bruno@clisp.org>, 2003.
 
    This file is free software: you can redistribute it and/or modify
    it under the terms of the GNU Lesser General Public License as

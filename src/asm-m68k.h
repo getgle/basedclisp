@@ -1,7 +1,7 @@
 // Assembly language support for m68k CPU.
 // Bruno Haible 1999-05-29
 
-// Copyright (C) 1999-2017 Bruno Haible <bruno@getgle.org>
+// Copyright (C) 1999-2017 Bruno Haible <bruno@clisp.org>
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by

@@ -3,4 +3,4 @@
 #define PACKAGE_TARNAME "clisp"
 #define PACKAGE_VERSION "2.49.93+ (2018-02-18)"
 #define PACKAGE_STRING "Based CLISP 2.49.93+ (2018-02-18)"
-#define PACKAGE_BUGREPORT "http://getgle.org/"
+#define PACKAGE_BUGREPORT "http://clisp.org/"

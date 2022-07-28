@@ -18,6 +18,6 @@ arbitrary precision floats and more.
 An X11 interface is available through CLX, Garnet, CLUE/CLIO.
 Based CLISP runs Maxima, ACL2 and many other Common Lisp packages.
 
-More information at <http://getgle.org/> = <http://clisp.sourceforge.net/>,
+More information at <http://clisp.org/> = <http://clisp.sourceforge.net/>,
 and <https://www.gnu.org/software/clisp/>.
 Sources are available at <https://ftp.gnu.org/pub/gnu/clisp/>.

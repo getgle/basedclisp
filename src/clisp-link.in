@@ -3,7 +3,7 @@
 # where
 #   command = create, add, run, install
 # For more usage information, see <doc/impnotes.html#mod-overview>.
-# Or <http://getgle.org/modules.html#mod-overview>.
+# Or <http://clisp.org/modules.html#mod-overview>.
 # Bruno Haible 1994-10-19, 1995-2005, 2018
 # Sam Steingold 2002-2010
 

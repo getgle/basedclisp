@@ -7,7 +7,7 @@
 #   3. sed -e 's,% ,%,g' -e 's,\. ,.,g' -e 's,@ ,@,g' -e 's,//.*$,,' -e 's/##//g'
 # Warning! All comments are stripped.
 
-# Copyright (C) 1997-2018 Bruno Haible <bruno@getgle.org>
+# Copyright (C) 1997-2018 Bruno Haible <bruno@clisp.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

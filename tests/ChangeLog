@@ -1,26 +1,26 @@
-2020-06-21  Bruno Haible  <bruno@getgle.org>
+2020-06-21  Bruno Haible  <bruno@clisp.org>
 
 	Avoid test failures on AIX, Haiku, Minix.
 	* path.tst, streams.tst: Change expected results for tests that assume
 	/dev/fd/n.
 
-2020-06-21  Bruno Haible  <bruno@getgle.org>
+2020-06-21  Bruno Haible  <bruno@clisp.org>
 
 	Avoid test failures on several platforms (*BSD etc.).
 	* socket.tst: Rewrite a test to make it more reliable, and accommodate
 	conditions signalled at different places on various platforms.
 
-2020-06-21  Bruno Haible  <bruno@getgle.org>
+2020-06-21  Bruno Haible  <bruno@clisp.org>
 
 	Avoid test failures on several platforms (FreeBSD, Cygwin, Minix, etc.).
 	* socket.tst: Change expected results per platform.
 
-2020-06-21  Bruno Haible  <bruno@getgle.org>
+2020-06-21  Bruno Haible  <bruno@clisp.org>
 
 	Fix test failures on several platforms (*BSD, Linux/hppa, etc.).
 	* socket.tst: Define errno values according to the OS and CPU.
 
-2020-06-20  Bruno Haible  <bruno@getgle.org>
+2020-06-20  Bruno Haible  <bruno@clisp.org>
 
 	Fix <https://gitlab.com/gnu-clisp/clisp/-/issues/25>.
 	* socket.tst: Verify that socket-connect with :timeout 0 on a dead port
@@ -31,7 +31,7 @@
 	* setf.tst: Split the last test case into individual cases as per
 	CLISP style. Add symbol clean-up.
 
-2019-06-29  Bruno Haible  <bruno@getgle.org>
+2019-06-29  Bruno Haible  <bruno@clisp.org>
 
 	Check DEFSETF expanders with computed keywords.
 	* setf.tst: Add test case from Sam Steingold.
@@ -65,7 +65,7 @@
 	* streams.tst: Fix "nohup make check": (make-stream :input) fails
 	under nohup because there is _no_ input stream available.
 
-2018-01-13  Bruno Haible  <bruno@getgle.org>
+2018-01-13  Bruno Haible  <bruno@clisp.org>
 
 	Fix ext-clisp test failure.
 	* tests/ext-clisp.tst: Update test after French translation changed.
@@ -184,7 +184,7 @@
 
 	* streams.tst, path.tst: Add tests for bug#679.
 
-2016-11-10  Bruno Haible  <bruno@getgle.org>
+2016-11-10  Bruno Haible  <bruno@clisp.org>
 
 	Update expected test results for memory model GENERIC64_HEAPCODES.
 	* alltest.tst: Update tests of most-positive-fixnum and
@@ -833,7 +833,7 @@
 
 	* path.tst: test DIRECTORY on poorly encoded names
 
-2008-07-15  Bruno Haible  <bruno@getgle.org>
+2008-07-15  Bruno Haible  <bruno@clisp.org>
 
 	* excepsit.tst: Change expected condition type in last commit.
 
@@ -1204,7 +1204,7 @@
 	* iofkts.tst: test for bug#339, bug#382: repect PPRINT
 	dispatch for nested objects, not just the top-level
 
-2006-11-10  Bruno Haible  <bruno@getgle.org>
+2006-11-10  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test for TYPEP and SUBTYPEP on incomplete and undefined
 	classes.
@@ -1284,12 +1284,12 @@
 
 	* ffi.tst, type.tst: fixed tests for #-unicode
 
-2006-04-21  Bruno Haible  <bruno@getgle.org>
+2006-04-21  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test against bug with make-instance cache after class
 	redefinition.
 
-2006-04-10  Bruno Haible  <bruno@getgle.org>
+2006-04-10  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Check ability to specify a default method-combination on the
 	generic-function class.
@@ -1300,7 +1300,7 @@
 	ADJUST-ARRAY on 0-length adjustable string
 	Reported by David Tolpin <dtolpin@users.sourceforge.net>
 
-2006-03-06  Bruno Haible  <bruno@getgle.org>
+2006-03-06  Bruno Haible  <bruno@clisp.org>
 
 	* backquot.tst: Add test for bug#272.
 	Proposed by Matthew Cross <mcross@irobot.com>.
@@ -1639,11 +1639,11 @@
 
 	* path.tst: check that the "SYS" logical host works
 
-2005-06-09  Bruno Haible  <bruno@getgle.org>
+2005-06-09  Bruno Haible  <bruno@clisp.org>
 
 	* conditions.tst: Mark a test as clisp-only.
 
-2005-06-09  Bruno Haible  <bruno@getgle.org>
+2005-06-09  Bruno Haible  <bruno@clisp.org>
 
 	* bin-io.tst: Update for cmucl-19b-pre1.
 	* clos.tst: Likewise.
@@ -1659,7 +1659,7 @@
 	* weakptr.tst: Likewise.
 	* tests.lisp (run-test, run-all-tests): Likewise.
 
-2005-06-09  Bruno Haible  <bruno@getgle.org>
+2005-06-09  Bruno Haible  <bruno@clisp.org>
 
 	Move lots of CLISP-only tests to a separate file.
 	* conditions.tst: Move restart tests out to restarts.tst.
@@ -1671,25 +1671,25 @@
 
 	* bind.tst: 5 more tests
 
-2005-06-04  Bruno Haible  <bruno@getgle.org>
+2005-06-04  Bruno Haible  <bruno@clisp.org>
 
 	* path.tst: Use UNKNOWN, not FIXME, for not-yet-determined values in
 	other implementations.
 
-2005-05-29  Bruno Haible  <bruno@getgle.org>
+2005-05-29  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Adjust numbering of last patch. Add a little sharper test.
 
-2005-05-29  Bruno Haible  <bruno@getgle.org>
+2005-05-29  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Add tests for DOCUMENTATION and (SETF DOCUMENTATION) on
 	interpreted functions and macros.
 
-2005-05-29  Bruno Haible  <bruno@getgle.org>
+2005-05-29  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Fix placement and comments of last patch.
 
-2005-05-29  Bruno Haible  <bruno@getgle.org>
+2005-05-29  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: On LISPWORKS, use the (gc) substitute.
 
@@ -1730,7 +1730,7 @@
 	<http://article.gmane.org/gmane.lisp.clisp.general:9582>
 	<https://sourceforge.net/p/clisp/mailman/message/12275493/>
 
-2005-05-11  Bruno Haible  <bruno@getgle.org>
+2005-05-11  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst: Update for very large fixnum sizes.
 	* array.tst: Likewise.
@@ -1744,7 +1744,7 @@
 	* tests.lisp (check-ignore-errors): new macro (checks condition slots)
 	(do-errcheck): use it instead of IGNORE-ERRORS
 
-2005-05-11  Bruno Haible  <bruno@getgle.org>
+2005-05-11  Bruno Haible  <bruno@clisp.org>
 
 	* strings.tst: Add tests for reallocated simple-strings in make-array.
 
@@ -1784,7 +1784,7 @@
 
 	* path.tst: test merging with NIL defaults
 
-2005-05-08  Bruno Haible  <bruno@getgle.org>
+2005-05-08  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp: Update for LispWorks 4.4.5.
 	* alltest.tst: Update for LispWorks. Mark sys::coerced-subseq tests as
@@ -1856,7 +1856,7 @@
 
 	* mop.tst: test SLOT-DEFINITION-READERS for DEFSTRUCT
 
-2005-04-28  Bruno Haible  <bruno@getgle.org>
+2005-04-28  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add a test for update of specializers -> methods lists.
 
@@ -1868,16 +1868,16 @@
 
 	* conditions.tst: check some TYPE-ERRORs with COERCE
 
-2005-04-21  Bruno Haible  <bruno@getgle.org>
+2005-04-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test that defmethod calls remove-method.
 
-2005-04-21  Bruno Haible  <bruno@getgle.org>
+2005-04-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test that defmethod calls add-method.
 	Reported by Pascal Costanza <pc@p-cos.net>.
 
-2005-04-21  Bruno Haible  <bruno@getgle.org>
+2005-04-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Fix an add-method method.
 
@@ -1885,24 +1885,24 @@
 
 	* tests.lisp (run-files): fixed output indentation
 
-2005-04-12  Bruno Haible  <bruno@getgle.org>
+2005-04-12  Bruno Haible  <bruno@clisp.org>
 
 	* weak.tst: Update for change :either -> :key-and-value,
 	:both -> :key-or-value.
 	* weakhash.tst: Likewise.
 	* weakhash2.tst: Likewise.
 
-2005-04-10  Bruno Haible  <bruno@getgle.org>
+2005-04-10  Bruno Haible  <bruno@clisp.org>
 
 	* weakhash.tst: Test long chains of weak hash tables.
 
-2005-04-02  Bruno Haible  <bruno@getgle.org>
+2005-04-02  Bruno Haible  <bruno@clisp.org>
 
 	* weakhash.tst: New file.
 	* weakhash2.tst: Renamed from hashweak.tst.
 	* tests.lisp (run-all-tests): Update.
 
-2005-03-31  Bruno Haible  <bruno@getgle.org>
+2005-03-31  Bruno Haible  <bruno@clisp.org>
 
 	* weakptr.tst: Portability to ACL 6.2 and LispWorks 4.3.
 	* hashweak.tst: Portability to LispWorks 4.3.
@@ -1930,11 +1930,11 @@
 
 	* conditions.tst: added (DEBUG 1) to OPTIMIZE
 
-2005-02-21  Bruno Haible  <bruno@getgle.org>
+2005-02-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add a test for method-function.
 
-2005-02-20  Bruno Haible  <bruno@getgle.org>
+2005-02-20  Bruno Haible  <bruno@clisp.org>
 
 	* number2.tst: Add tests for exactness of some realparts and
 	imagpart of transcendental functions. Add test for accuracy of CIS.
@@ -1948,16 +1948,16 @@
 
 	* macro8.tst: check that declaration processing does not modify code
 
-2005-02-14  Bruno Haible  <bruno@getgle.org>
+2005-02-14  Bruno Haible  <bruno@clisp.org>
 
 	* streams.tst: Test FINISH-OUTPUT and FORCE-OUTPUT as well.
 
-2005-02-13  Bruno Haible  <bruno@getgle.org>
+2005-02-13  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (do-test): Print a blank line after the "Differ"
 	paragraph, not before.
 
-2005-02-13  Bruno Haible  <bruno@getgle.org>
+2005-02-13  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp: Updates for GCL.
 	* clos.tst: Likewise.
@@ -1980,7 +1980,7 @@
 
 	* conditions.tst: call PRINC-ERROR instead of ignoring conditions
 
-2005-02-08  Bruno Haible  <bruno@getgle.org>
+2005-02-08  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Add some tests for SUBTYPEP and FUNCTION types.
 
@@ -1988,7 +1988,7 @@
 
 	* bind.tst: always activate all SPECIAL declarations
 
-2005-01-27  Bruno Haible  <bruno@getgle.org>
+2005-01-27  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test for class-prototype result on built-in classes.
 
@@ -1996,19 +1996,19 @@
 
 	* path.tst: check that DIRECTORY returns TRUENAMEs
 
-2005-01-22  Bruno Haible  <bruno@getgle.org>
+2005-01-22  Bruno Haible  <bruno@clisp.org>
 
 	* bind.tst: Add tests for MACROLET expander environments.
 
-2005-01-27  Bruno Haible  <bruno@getgle.org>
+2005-01-27  Bruno Haible  <bruno@clisp.org>
 
 	* path.tst: Add test for (logical-pathname ":").
 
-2005-01-26  Bruno Haible  <bruno@getgle.org>
+2005-01-26  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Add a test for SETF VALUES-LIST.
 
-2005-01-21  Bruno Haible  <bruno@getgle.org>
+2005-01-21  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst: At the end, clean up symbols affected by side-effects.
 	* backquot.tst: Likewise.
@@ -2020,7 +2020,7 @@
 	* pack11.tst: Likewise.
 	* setf.tst: Likewise.
 
-2005-01-23  Bruno Haible  <bruno@getgle.org>
+2005-01-23  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Rename some classes to avoid collisions with other tests.
 
@@ -2028,7 +2028,7 @@
 
 	* bind.tst: added LOCALLY tests
 
-2005-01-19  Bruno Haible  <bruno@getgle.org>
+2005-01-19  Bruno Haible  <bruno@clisp.org>
 
 	* bind.tst: Add more tests with global variables.
 
@@ -2036,18 +2036,18 @@
 
 	* bind.tst: added tests of interaction with global specials
 
-2005-01-19  Bruno Haible  <bruno@getgle.org>
+2005-01-19  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (my-eval): Compare the two results with EQUALP, not EQUAL,
 	for consistency with do-test.
 	(run-test): Accept :logname argument.
 	(run-all-tests): Add bind.tst.
 
-2005-01-19  Bruno Haible  <bruno@getgle.org>
+2005-01-19  Bruno Haible  <bruno@clisp.org>
 
 	* strings.tst: Clean up after test added on 2001-12-04.
 
-2005-01-18  Bruno Haible  <bruno@getgle.org>
+2005-01-18  Bruno Haible  <bruno@clisp.org>
 
 	* bind.tst: Fix a test and add some more tests.
 
@@ -2077,16 +2077,16 @@
 
 	* bind.tst: new file: test non-global special bindings
 
-2005-01-05  Bruno Haible  <bruno@getgle.org>
+2005-01-05  Bruno Haible  <bruno@clisp.org>
 
 	* macro8.tst: Add tests for global symbol-macros.
 
-2004-12-24  Bruno Haible  <bruno@getgle.org>
+2004-12-24  Bruno Haible  <bruno@clisp.org>
 
 	* streams.tst: Adjust a test, taking into account that WARN now
 	prints an elastic newline after and none before the warning.
 
-2004-12-24  Bruno Haible  <bruno@getgle.org>
+2004-12-24  Bruno Haible  <bruno@clisp.org>
 
 	* format.tst: Add some tests for elastic-newline.
 
@@ -2095,24 +2095,24 @@
 	* type.tst: check that there are no unnecessary warnings on
 	predicate-accessor conflict
 
-2004-12-24  Bruno Haible  <bruno@getgle.org>
+2004-12-24  Bruno Haible  <bruno@clisp.org>
 
 	* ffi.tst: Add a few tests for conversion of strings and arrays with
 	element-type CHARACTER.
 
-2004-12-19  Bruno Haible  <bruno@getgle.org>
+2004-12-19  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Add test against broken PUSH implementation.
 
-2004-12-19  Bruno Haible  <bruno@getgle.org>
+2004-12-19  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Add some tests for the quality of some macroexpansions.
 
-2004-12-19  Bruno Haible  <bruno@getgle.org>
+2004-12-19  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Check that dotted lists give an error.
 
-2004-12-19  Bruno Haible  <bruno@getgle.org>
+2004-12-19  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a test for call-next-method.
 
@@ -2128,20 +2128,20 @@
 
 	* pack11.tst: tests for setfable package case properties
 
-2004-12-12  Bruno Haible  <bruno@getgle.org>
+2004-12-12  Bruno Haible  <bruno@clisp.org>
 
 	* characters.tst: Add test of sys::char-invertcase.
 
-2004-12-08  Bruno Haible  <bruno@getgle.org>
+2004-12-08  Bruno Haible  <bruno@clisp.org>
 
 	* eval20.tst: Add more constantp tests.
 
-2004-12-11  Bruno Haible  <bruno@getgle.org>
+2004-12-11  Bruno Haible  <bruno@clisp.org>
 
 	* streams.tst: Make a that looks at the textual output of WARN work
 	in non-English environments.
 
-2004-12-08  Bruno Haible  <bruno@getgle.org>
+2004-12-08  Bruno Haible  <bruno@clisp.org>
 
 	* array.tst: Test error behaviour of (SETF ROW-MAJOR-AREF).
 
@@ -2154,12 +2154,12 @@
 	* conditions.tst (princ-error): new function
 	added a test to check that PROGV does not modify the source code
 
-2004-12-05  Bruno Haible  <bruno@getgle.org>
+2004-12-05  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst: Add tests for sequence constructing functions with types
 	like (or (vector t 5) (vector t 10)).
 
-2004-12-05  Bruno Haible  <bruno@getgle.org>
+2004-12-05  Bruno Haible  <bruno@clisp.org>
 
 	* number2.tst: Add a comparison which used to trigger overflow or a
 	GC-safety bug.
@@ -2169,42 +2169,42 @@
 	* macro8.tst: check that run-time errors are not turned into
 	compile-time errors
 
-2004-11-20  Bruno Haible  <bruno@getgle.org>
+2004-11-20  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add a test for finalize-inheritance invocations.
 
-2004-11-22  Bruno Haible  <bruno@getgle.org>
+2004-11-22  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add support for Allegro CL 6.2. Make some tests more
 	portable.
 	* mop.tst: Likewise.
 	* mop-aux.lisp: Add support for Allegro CL.
 
-2004-11-21  Bruno Haible  <bruno@getgle.org>
+2004-11-21  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add support for Lispworks 4.3. Use class name
 	'abstract-position' instead of 'position'.
 	* mop.tst: Add support for Lispworks 4.3.
 
-2004-11-21  Bruno Haible  <bruno@getgle.org>
+2004-11-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Update for CMUCL.
 
-2004-11-21  Bruno Haible  <bruno@getgle.org>
+2004-11-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Restrict the tests that require
 	compute-effective-slot-definition-initargs to CLISP, CMUCL, SBCL.
 
-2004-11-21  Bruno Haible  <bruno@getgle.org>
+2004-11-21  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add support for OpenMCL 0.14.2.
 	* mop-aux.lisp: Likewise.
 
-2004-11-21  Bruno Haible  <bruno@getgle.org>
+2004-11-21  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a method-combination test that fails in SBCL 0.8.16.
 
-2004-11-20  Bruno Haible  <bruno@getgle.org>
+2004-11-20  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (lisp-implementation): Renamed from
 	lisp-implementation-type. Needed because of SBCL's package locks.
@@ -2213,7 +2213,7 @@
 	* mop.tst: New tests from clos.tst. Add clos: package prefix in some
 	places. Improve portability.
 
-2004-11-19  Bruno Haible  <bruno@getgle.org>
+2004-11-19  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Test the forward-referenced-class behaviour with both
 	settings of *forward-referenced-class-misdesign*.
@@ -2223,7 +2223,7 @@
 
 	* macro8.tst: test COMPILE+LOAD-TIME-VALUE inside COMPILE-FILE
 
-2004-11-17  Bruno Haible  <bruno@getgle.org>
+2004-11-17  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add some tests for symbols naming forward-referenced
 	classes.
@@ -2233,7 +2233,7 @@
 
 	* setf.tst (foo22): quote (values)
 
-2004-11-22  Bruno Haible  <bruno@getgle.org>
+2004-11-22  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Don't use the symbol 'foo' in too many contexts.
 
@@ -2241,101 +2241,101 @@
 
 	* setf.tst: check that long DEFSETF permit missing store variables
 
-2004-11-13  Bruno Haible  <bruno@getgle.org>
+2004-11-13  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Test for the generic-function-class' default-initargs use in
 	defgeneric.
 
-2004-11-13  Bruno Haible  <bruno@getgle.org>
+2004-11-13  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Test for the metaclass' default-initargs use in defclass.
 
-2004-11-08  Bruno Haible  <bruno@getgle.org>
+2004-11-08  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Remove special caution in initialize-instance method for
 	virtual-generic-function.
 
-2004-11-17  Bruno Haible  <bruno@getgle.org>
+2004-11-17  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add clos: package prefixes.
 
-2004-11-09  Bruno Haible  <bruno@getgle.org>
+2004-11-09  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add more tests for notification of generic functions from
 	defclass.
 
-2004-11-15  Bruno Haible  <bruno@getgle.org>
+2004-11-15  Bruno Haible  <bruno@clisp.org>
 
 	* mop-aux.lisp: New file.
 	* mop.tst: Load it. Rely on it to define
 	clos::compute-effective-method-as-function.
 
-2004-11-07  Bruno Haible  <bruno@getgle.org>
+2004-11-07  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests for notification of generic functions from
 	defclass.
 
-2004-11-07  Bruno Haible  <bruno@getgle.org>
+2004-11-07  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a test for notification of generic functions from
 	change-class.
 
-2004-11-07  Bruno Haible  <bruno@getgle.org>
+2004-11-07  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test for notification upon change-class of a
 	generic-function.
 
-2004-11-07  Bruno Haible  <bruno@getgle.org>
+2004-11-07  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test for notification upon change-class of a method.
 
-2004-11-10  Bruno Haible  <bruno@getgle.org>
+2004-11-10  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Comment out the print-object method return value test.
 
-2004-10-27  Bruno Haible  <bruno@getgle.org>
+2004-10-27  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test for compute-direct-slot-definition-initargs.
 
-2004-10-31  Bruno Haible  <bruno@getgle.org>
+2004-10-31  Bruno Haible  <bruno@clisp.org>
 
 	* socket.tst: New file.
 
-2004-10-24  Bruno Haible  <bruno@getgle.org>
+2004-10-24  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Update for changed compute-effective-method-as-function
 	calling conventions.
 
-2004-10-23  Bruno Haible  <bruno@getgle.org>
+2004-10-23  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add virtual-dispatch generic functions example.
 
-2004-10-23  Bruno Haible  <bruno@getgle.org>
+2004-10-23  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test of compute-effective-slot-definition-initargs.
 	Add test for slots with one value per subclass.
 
-2004-11-07  Bruno Haible  <bruno@getgle.org>
+2004-11-07  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (do-test): Fix another out-of-bounds array access
 	introduced on 2004-10-20.
 
-2004-10-31  Bruno Haible  <bruno@getgle.org>
+2004-10-31  Bruno Haible  <bruno@clisp.org>
 
 	* lambda.tst: On BeOS, disable tests that fail on BeOS.
 	* excepsit.tst: Likewise.
 	* ffi.tst: Likewise.
 
-2004-10-29  Bruno Haible  <bruno@getgle.org>
+2004-10-29  Bruno Haible  <bruno@clisp.org>
 
 	* conditions.tst: Override outermost handlers.
 
-2004-10-17  Bruno Haible  <bruno@getgle.org>
+2004-10-17  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Add a defstruct test.
 	* mop.tst: Add tests for interoperability of defstruct with defclass.
 
-2004-10-29  Bruno Haible  <bruno@getgle.org>
+2004-10-29  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (do-test): Fix out-of-bounds array access introduced on
 	2004-10-20.
@@ -2344,16 +2344,16 @@
 
 	* loop.tst: test accumulation clause compatibility check
 
-2004-10-27  Bruno Haible  <bruno@getgle.org>
+2004-10-27  Bruno Haible  <bruno@clisp.org>
 
 	* conditions.tst: Check that after a Ctrl-D (EOF), assert without
 	places is not retried.
 
-2004-10-26  Bruno Haible  <bruno@getgle.org>
+2004-10-26  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test against multiple execution of initialize-instance.
 
-2004-10-22  Bruno Haible  <bruno@getgle.org>
+2004-10-22  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Make the auto-accessors test portable.
 
@@ -2366,27 +2366,27 @@
 
 	* streams.tst: more fill-stream tests
 
-2004-10-10  Bruno Haible  <bruno@getgle.org>
+2004-10-10  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add test for custom method classes.
 
-2004-10-10  Bruno Haible  <bruno@getgle.org>
+2004-10-10  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add tests regarding extending methods.
 
-2004-10-09  Bruno Haible  <bruno@getgle.org>
+2004-10-09  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test for invalid print-object methods warning.
 
-2004-10-09  Bruno Haible  <bruno@getgle.org>
+2004-10-09  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add tests for print-object on uninitialized metaobjects.
 
-2004-10-07  Bruno Haible  <bruno@getgle.org>
+2004-10-07  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Test behaviour of class redefinition w.r.t. direct slots.
 
-2004-10-07  Bruno Haible  <bruno@getgle.org>
+2004-10-07  Bruno Haible  <bruno@clisp.org>
 
 	* conditions.tst: Add a few tests for use-value in array functions.
 
@@ -2394,7 +2394,7 @@
 
 	* ffi.tst: test some restarts
 
-2004-10-06  Bruno Haible  <bruno@getgle.org>
+2004-10-06  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Fix unintended side effects caused by the typechecked-
 	reader/writer tests.
@@ -2412,7 +2412,7 @@
 	* path.tst [win32]: check that ABSOLUTE-PATHNAME does not crash on
 	wild device
 
-2004-09-20  Bruno Haible  <bruno@getgle.org>
+2004-09-20  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add many new protocol tests.
 
@@ -2430,23 +2430,23 @@
 
 	* excepsit.tst (loop): check that (loop 42) is parsed as extended loop
 
-2004-09-28  Bruno Haible  <bruno@getgle.org>
+2004-09-28  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a couple of defgeneric tests.
 
-2004-09-23  Bruno Haible  <bruno@getgle.org>
+2004-09-23  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a few more defclass tests.
 
-2004-09-20  Bruno Haible  <bruno@getgle.org>
+2004-09-20  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Update for changed syntax of :fixed-slot-locations option.
 
-2004-09-22  Bruno Haible  <bruno@getgle.org>
+2004-09-22  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a few more defclass tests.
 
-2004-09-18  Bruno Haible  <bruno@getgle.org>
+2004-09-18  Bruno Haible  <bruno@clisp.org>
 
 	* number2.tst: Add two floating-point tests.
 	* alltest.tst: Update expected values of most/least-*tive-short-float.
@@ -2460,7 +2460,7 @@
 
 	* ffi.tst: Test c-type '(c-pointer <c-type>)
 
-2004-08-05  Bruno Haible  <bruno@getgle.org>
+2004-08-05  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Disable two tests on LispWorks.
 
@@ -2493,7 +2493,7 @@
 
 	* ffi.tst (c-malloc, c-free) [win32]: use :DEFAULT
 
-2004-06-24  Bruno Haible  <bruno@getgle.org>
+2004-06-24  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a test for ensure-generic-function.
 
@@ -2501,7 +2501,7 @@
 
 	* ffi.tst (c-malloc, c-free) [unix & !cygwin]: use RTLD_DEFAULT
 
-2004-08-28  Bruno Haible  <bruno@getgle.org>
+2004-08-28  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp, alltest.tst, array.tst, characters.tst, clos.tst:
 	* excepsit.tst, ffi.tst, format.tst, iofkts.tst, lambda.tst:
@@ -2523,16 +2523,16 @@
 	* ffi.tst (c-malloc, c-free): use a full path to /lib/libc.so,
 	it appears that "c" is a cygwin-ism
 
-2004-06-23  Bruno Haible  <bruno@getgle.org>
+2004-06-23  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add 2 tests for ensure-generic-function.
 
-2004-06-20  Bruno Haible  <bruno@getgle.org>
+2004-06-20  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Check that GC reclaims forward pointers of reallocated
 	generic functions.
 
-2004-06-20  Bruno Haible  <bruno@getgle.org>
+2004-06-20  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests for custom generic-function-class.
 
@@ -2553,32 +2553,32 @@
 
 	* ffi.tst (c-malloc, c-free): added a couple of poor-style tests
 
-2004-08-04  Bruno Haible  <bruno@getgle.org>
+2004-08-04  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst, clos.tst, format.tst, hashlong.tst, symbol10.tst,
 	type.tst: Update for CMUCL 19a.
 	* macro8.tst: Fix CMUCL specific typo.
 	* mop.tst: Make some tests work on CMUCL and SBCL.
 
-2004-08-04  Bruno Haible  <bruno@getgle.org>
+2004-08-04  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Mark the :fixed-slot-locations tests as clisp-specific.
 	* streamslong.tst: Mark a test as clisp-specific.
 
-2004-08-07  Bruno Haible  <bruno@getgle.org>
+2004-08-07  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add one more test.
 
-2004-06-13  Bruno Haible  <bruno@getgle.org>
+2004-06-13  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Update SUBTYPEP test to match the fact that the user can
 	create subclasses of both STREAM and STANDARD-GENERIC-FUNCTION.
 
-2004-06-12  Bruno Haible  <bruno@getgle.org>
+2004-06-12  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests of set-funcallable-instance-function.
 
-2004-06-10  Bruno Haible  <bruno@getgle.org>
+2004-06-10  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: 12 new tests about user-defined methods.
 
@@ -2592,40 +2592,40 @@
 	* bin-io.tst (clisp-test-bin-i/o): check output of negative
 	integers too
 
-2004-07-20  Bruno Haible  <bruno@getgle.org>
+2004-07-20  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Update a few tests after the CLOS internal API changed.
 
-2004-05-31  Bruno Haible  <bruno@getgle.org>
+2004-05-31  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Add a test for structure-class.
 
-2004-06-10  Bruno Haible  <bruno@getgle.org>
+2004-06-10  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Change expected result of positive-integer qualifiers test.
 
-2004-05-29  Bruno Haible  <bruno@getgle.org>
+2004-05-29  Bruno Haible  <bruno@clisp.org>
 
 	* mop.tst: Update: #+CLISP (:metaclass structure-class) no longer
 	needed.
 
-2004-05-21  Bruno Haible  <bruno@getgle.org>
+2004-05-21  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (run-all-tests): Reduce the number of weakptr runs to 20.
 
-2004-06-13  Bruno Haible  <bruno@getgle.org>
+2004-06-13  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: 3 new tests for DEFSETF.
 
-2004-06-06  Bruno Haible  <bruno@getgle.org>
+2004-06-06  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: 206 new method-combination tests.
 
-2004-06-04  Bruno Haible  <bruno@getgle.org>
+2004-06-04  Bruno Haible  <bruno@clisp.org>
 
 	* macro8.tst: Add 3 LOAD-TIME-VALUE tests.
 
-2004-05-15  Bruno Haible  <bruno@getgle.org>
+2004-05-15  Bruno Haible  <bruno@clisp.org>
 
 	* hashtable.tst: New file.
 	* tests.lisp (run-all-tests): Run also hashtable.tst.
@@ -2635,7 +2635,7 @@
 	* tests.lisp (with-ignored-errors): return the error message on
 	error as the second argument in the new definition too
 
-2004-05-25  Bruno Haible  <bruno@getgle.org>
+2004-05-25  Bruno Haible  <bruno@clisp.org>
 
 	* hashweak.tst: Add a test.
 
@@ -2649,7 +2649,7 @@
 	* lists152.tst (last): check the list argument for circularity,
 	do not accept ATOMs
 
-2004-05-23  Bruno Haible  <bruno@getgle.org>
+2004-05-23  Bruno Haible  <bruno@clisp.org>
 
 	* backquot.tst: Add many tests.
 
@@ -2666,17 +2666,17 @@
 
 	* lists152.tst (butlast): check for circular lists
 
-2004-05-23  Bruno Haible  <bruno@getgle.org>
+2004-05-23  Bruno Haible  <bruno@clisp.org>
 
 	* backquot.tst: Add test for vector element type.
 
-2004-05-20  Bruno Haible  <bruno@getgle.org>
+2004-05-20  Bruno Haible  <bruno@clisp.org>
 
 	Increase memory sizes for builds with fixed memory size.
 	* Makefile (LISP): Grant 30000 KW, since lists153 needs more than
 	25000 KW.
 
-2004-05-08  Bruno Haible  <bruno@getgle.org>
+2004-05-08  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Update a test.
 
@@ -2684,7 +2684,7 @@
 
 	* number2.tst: ATANH blows up at -1 and 1
 
-2004-05-08  Bruno Haible  <bruno@getgle.org>
+2004-05-08  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (run-all-tests): Enable the hashweak test.
 
@@ -2692,20 +2692,20 @@
 
 	* number2.tst: COS and COSH can return purely imaginary numbers
 
-2004-05-08  Bruno Haible  <bruno@getgle.org>
+2004-05-08  Bruno Haible  <bruno@clisp.org>
 
 	* weak.tst: New file.
 	* tests.lisp (run-all-tests): Also run weak.tst.
 
-2004-04-25  Bruno Haible  <bruno@getgle.org>
+2004-04-25  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Test documentation string on a class without proper name.
 
-2004-05-15  Bruno Haible  <bruno@getgle.org>
+2004-05-15  Bruno Haible  <bruno@clisp.org>
 
 	* setf.tst: Add test for inlinability.
 
-2004-05-05  Bruno Haible  <bruno@getgle.org>
+2004-05-05  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Change expected result of tests that depend on
 	upgraded-complex-part-type.
@@ -2714,7 +2714,7 @@
 
 	* number2.tst: added a LOG test that fails on Solaris/Sparc64
 
-2004-04-25  Bruno Haible  <bruno@getgle.org>
+2004-04-25  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add one more CHANGE-CLASS test.
 
@@ -2723,27 +2723,27 @@
 	* number2.tst (test-function): be careful with transcendental
 	functions: do not call LOG on 0 &c.
 
-2004-04-30  Bruno Haible  <bruno@getgle.org>
+2004-04-30  Bruno Haible  <bruno@clisp.org>
 
 	* lists153.tst: Skip memory intensive test on 32-bit SPVW_PURE_BLOCKS
 	platforms.
 
-2004-04-24  Bruno Haible  <bruno@getgle.org>
+2004-04-24  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Use new slot-definition-* accessors.
 	* iofkts.tst: Likewise.
 
-2004-04-24  Bruno Haible  <bruno@getgle.org>
+2004-04-24  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests for :fixed-slot-locations defclass option.
 	* iofkts.tst: Change expected test result.
 
-2004-04-18  Bruno Haible  <bruno@getgle.org>
+2004-04-18  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Check that calling class-prototype doesn't declare a class
 	as being instantiated.
 
-2004-04-18  Bruno Haible  <bruno@getgle.org>
+2004-04-18  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests for error recovery in defclass.
 
@@ -2751,29 +2751,29 @@
 
 	* pack11.tst: Add test for rename-package.
 
-2004-04-18  Bruno Haible  <bruno@getgle.org>
+2004-04-18  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test that defclass removes old accessor methods.
 
-2004-04-15  Bruno Haible  <bruno@getgle.org>
+2004-04-15  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add tests regarding the update of the direct-subclasses
 	lists during redefinition of finalized and non-finalized classes.
 
-2004-04-25  Bruno Haible  <bruno@getgle.org>
+2004-04-25  Bruno Haible  <bruno@clisp.org>
 
 	* excepsit.tst: Invoke a nonexistent restart, instead of ABORT.
 
-2004-04-13  Bruno Haible  <bruno@getgle.org>
+2004-04-13  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add test for weakness of direct-subclasses list.
 
-2004-04-28  Bruno Haible  <bruno@getgle.org>
+2004-04-28  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (run-all-tests): Enable weakptr test and run it
 	repeatedly.
 
-2004-04-17  Bruno Haible  <bruno@getgle.org>
+2004-04-17  Bruno Haible  <bruno@clisp.org>
 
 	Add support for CMUCL 18e.
 	* tests.lisp, clos.tst, format.tst, iofkts.tst, lambda.tst, mop.tst,
@@ -2786,7 +2786,7 @@
 	CUSTOM:*WARN-ON-FLOATING-POINT-CONTAGION* and
 	CUSTOM:*WARN-ON-FLOATING-POINT-RATIONAL-CONTAGION* to NIL
 
-2004-04-17  Bruno Haible  <bruno@getgle.org>
+2004-04-17  Bruno Haible  <bruno@clisp.org>
 
 	Add support for SBCL.
 	* tests.lisp, alltest.tst, array.tst, bin-io.tst, characters.tst:
@@ -2802,18 +2802,18 @@
 	* backquot.tst [enable-risky-tests]: added a test based on
 	mit-clx/input.lisp:declare-event/get-macro
 
-2004-04-17  Bruno Haible  <bruno@getgle.org>
+2004-04-17  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst, array.tst, clos.tst, eval20.tst, hashlong.tst:
 	* iofkts.tst, lists152.tst, macro8.tst, map.tst, type.tst: Make many
 	tests independent of CLISP. Mark those which are dependent of CLISP
 	with #+CLISP.
 
-2004-04-12  Bruno Haible  <bruno@getgle.org>
+2004-04-12  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: New tests for class redefinition.
 
-2004-04-12  Bruno Haible  <bruno@getgle.org>
+2004-04-12  Bruno Haible  <bruno@clisp.org>
 
 	* tests.lisp (with-ignored-errors): Use portable definition instead of
 	the old CLISP hammer definition.
@@ -2836,7 +2836,7 @@
 	* strings.tst: add a (NSTRING-UPCASE #A(NIL (0))) test
 	enable string un-realloc test (was risky)
 
-2004-04-10  Bruno Haible  <bruno@getgle.org>
+2004-04-10  Bruno Haible  <bruno@clisp.org>
 
 	* strings.tst: Add test for return value of NSTRING-UPCASE.
 
@@ -2859,36 +2859,36 @@
 
 	* streams.tst: test ext:fill-stream
 
-2004-04-10  Bruno Haible  <bruno@getgle.org>
+2004-04-10  Bruno Haible  <bruno@clisp.org>
 
 	* streams.tst: Update after sys::describe-stream was renamed to
 	sys::fill-stream.
 
-2004-04-03  Bruno Haible  <bruno@getgle.org>
+2004-04-03  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Many new SUBTYPEP tests.
 
-2004-04-04  Bruno Haible  <bruno@getgle.org>
+2004-04-04  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Test TYPEP on a structure with user-defined :TYPE.
 
-2004-04-04  Bruno Haible  <bruno@getgle.org>
+2004-04-04  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Test DEFSTRUCT :INITIAL-OFFSET option.
 
-2004-03-21  Bruno Haible  <bruno@getgle.org>
+2004-03-21  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Verify that SUBTYPEP works on not-yet-finalized classes.
 
-2004-03-21  Bruno Haible  <bruno@getgle.org>
+2004-03-21  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Verify that redefining a class doesn't change its identity.
 
-2004-04-01  Bruno Haible  <bruno@getgle.org>
+2004-04-01  Bruno Haible  <bruno@clisp.org>
 
 	* iofkts.tst (*print-readably*): Fix symbol printing test again.
 
-2004-03-27  Bruno Haible  <bruno@getgle.org>
+2004-03-27  Bruno Haible  <bruno@clisp.org>
 
 	* array.tst: array-total-size-limit and array-dimension-limit are
 	now = most-positive-fixnum.
@@ -2902,11 +2902,11 @@
 
 	* type.tst (typeof-typep-subtype): streamlined TYPE-OF tests
 
-2004-03-22  Bruno Haible  <bruno@getgle.org>
+2004-03-22  Bruno Haible  <bruno@clisp.org>
 
 	* type.tst: Add some TYPE-OF tests.
 
-2004-03-07  Bruno Haible  <bruno@getgle.org>
+2004-03-07  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Change expected result of (class-of #A(NIL (10)) to
 	<string>, instead of <vector>.
@@ -2915,20 +2915,20 @@
 
 	* iofkts.tst (object-out): test CLOS/PPRINT-LOGICAL-BLOCK
 
-2004-02-16  Bruno Haible  <bruno@getgle.org>
+2004-02-16  Bruno Haible  <bruno@clisp.org>
 
 	* clos.tst: Add a test for removal of instance forward pointers
 	during garbage collection.
 
-2004-03-18  Bruno Haible  <bruno@getgle.org>
+2004-03-18  Bruno Haible  <bruno@clisp.org>
 
 	* Makefile (LISP): Add a -N option.
 
-2004-03-12  Bruno Haible  <bruno@getgle.org>
+2004-03-12  Bruno Haible  <bruno@clisp.org>
 
 	* excepsit.tst: Disable the /etc/passwd test on BeOS.
 
-2004-03-08  Bruno Haible  <bruno@getgle.org>
+2004-03-08  Bruno Haible  <bruno@clisp.org>
 
 	* hashlong.tst (symbole): Use DO-EXTERNAL-SYMBOLS, not DO-SYMBOLS.
 	* clos.tst: Add test for test-mc-standard-bad-qualifiers.
@@ -3081,13 +3081,13 @@
 
 	* encoding.tst: Handle error when encoding does not exist.
 
-2002-05-26  Bruno Haible  <bruno@getgle.org>
+2002-05-26  Bruno Haible  <bruno@clisp.org>
 
 	* alltest.tst [CLISP & UNICODE]: Change CHAR-CODE-LIMIT expected value
 	to 1114112.
 	* characters.tst [CLISP & UNICODE]: Likewise.
 
-2002-05-20  Bruno Haible  <bruno@getgle.org>
+2002-05-20  Bruno Haible  <bruno@clisp.org>
 
 	* strings.tst: Test checking of validity of CHAR index.
 

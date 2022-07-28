@@ -25,11 +25,11 @@
 	* must-loop.lisp: disable an "ambiguous result" test
 	* must-printer.lisp: CLISP test harness binds *print-circle*
 
-2004-10-24  Bruno Haible  <bruno@getgle.org>
+2004-10-24  Bruno Haible  <bruno@clisp.org>
 
 	* *.lisp: Upgrade to sacla version 2004-10-08.
 
-2004-08-07  Bruno Haible  <bruno@getgle.org>
+2004-08-07  Bruno Haible  <bruno@clisp.org>
 
 	* *.lisp: Taken from the sacla project from Yuji Minejima. Untabified.
 	Adapted for CLISP.

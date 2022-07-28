@@ -1,7 +1,7 @@
 /* Generate Unicode conforming character classification tables from a
    UnicodeData file.
    Copyright (C) 2000-2002 Free Software Foundation, Inc.
-   Written by Bruno Haible <bruno@getgle.org>, 2000-2002.
+   Written by Bruno Haible <bruno@clisp.org>, 2000-2002.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by

@@ -14,7 +14,7 @@
    You should have received a copy of the GNU Lesser General Public License
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-/* Written by Bruno Haible <bruno@getgle.org>, 2019-2020.  */
+/* Written by Bruno Haible <bruno@clisp.org>, 2019-2020.  */
 
 /* Use a lock, so that no two threads can invoke mbtowc at the same time.  */
 

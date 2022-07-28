@@ -1,6 +1,6 @@
 /* Iteration over virtual memory areas.
    Copyright (C) 2011-2021 Free Software Foundation, Inc.
-   Written by Bruno Haible <bruno@getgle.org>, 2011-2017.
+   Written by Bruno Haible <bruno@clisp.org>, 2011-2017.
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by

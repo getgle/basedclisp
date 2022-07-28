@@ -16,7 +16,7 @@ dnl  Makefile   ---<make>--->> lisp.run, lispinit.mem
 dnl
 dnl
 AC_PREREQ([2.64])
-AC_INIT(Based CLISP, m4_normalize(m4_esyscmd([if test -f version.sh; then . ./version.sh; else . ../version.sh; fi; echo "${VERSION_NUMBER} (${RELEASE_DATE})"])), http://getgle.org/, clisp)
+AC_INIT(Based CLISP, m4_normalize(m4_esyscmd([if test -f version.sh; then . ./version.sh; else . ../version.sh; fi; echo "${VERSION_NUMBER} (${RELEASE_DATE})"])), http://clisp.org/, clisp)
 AC_CONFIG_SRCDIR([lispbibl.d])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])

@@ -6,7 +6,7 @@
 #   2. grep -v '^ *#line' | grep -v '^#'
 #   3. sed -e 's,% ,%,g' -e 's,//,@,g' -e 's,\$,#,g'
 
-# Copyright (C) 1999-2018 Bruno Haible <bruno@getgle.org>
+# Copyright (C) 1999-2018 Bruno Haible <bruno@clisp.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

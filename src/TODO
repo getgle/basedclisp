@@ -112,7 +112,7 @@ Better error checking in get-setf-expansion for long defsetf
 
 
 FFI: passing structs by value:
-http://getgle.org/impnotes/dffi.html#ffi-struct-arg
+http://clisp.org/impnotes/dffi.html#ffi-struct-arg
 foreign.d should signal an error when a struct is passed by value
 foreign1.lisp should emit C code for a wrapper function
  that passes the struct by pointer
